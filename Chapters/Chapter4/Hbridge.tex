@@ -113,7 +113,7 @@ Implemented on the vehicle is a double H-bridge, which is configured to run in b
 	\label{DoubleHbridgeBrakeON}
 \end{figure}\vspace{-5mm}
 
-In this configuration the PWM signal is only imposed on Q6 and Q8. So instead of activating Q5 and Q7 in the OFF-period, as in \figref{HbridgeClockwiseBrakeOFF}, it utilizes the intrinsic diodes of Q5 and Q7, as shown on \figurename{DoubleHbridgeBrakeOFF}. This can sometimes cause too high heat dissipation in the intrinsic diodes, however this H-bridge has an absolute maximum rating of \si{\pm 30 \ A}, and in this configuration has two FETs in parallel, which is more than sufficient\cite{STMicroelectronics}.
+In this configuration the PWM signal is only imposed on Q6 and Q8. So instead of activating Q5 and Q7 in the OFF-period, as in \figref{HbridgeClockwiseBrakeOFF}, it utilizes the intrinsic diodes of Q5 and Q7, as shown on \figref{DoubleHbridgeBrakeOFF}. This can sometimes cause too high heat dissipation in the intrinsic diodes, however this H-bridge has an absolute maximum rating of \si{\pm 30 \ A}, and in this configuration has two FETs in parallel, which is more than sufficient\cite{STMicroelectronics}.
 
 \begin{figure}[H]
 	\centering
